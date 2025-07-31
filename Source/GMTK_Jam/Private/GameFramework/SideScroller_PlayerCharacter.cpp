@@ -25,7 +25,7 @@ ASidescroller_PlayerCharacter::ASidescroller_PlayerCharacter()
     GetCharacterMovement()->GravityScale = 2.0f;
 
     GetCharacterMovement()->SetPlaneConstraintEnabled(true);
-    GetCharacterMovement()->SetPlaneConstraintAxisSetting(EPlaneConstraintAxisSetting::X);
+    GetCharacterMovement()->SetPlaneConstraintAxisSetting(EPlaneConstraintAxisSetting::Y);
 
 	JumpMaxHoldTime = 0.3f;
 	Tags.Add("Player");
