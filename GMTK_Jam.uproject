@@ -17,6 +17,10 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "EasyFixAndroidPermission",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
